@@ -1,7 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/bg3" >
+    android:layout_height="fill_parent">
 
     <TextView
         android:id="@+id/textView1"
@@ -19,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp" >
+        android:layout_marginTop="36dp">
 
         <TextView
             android:id="@+id/textView3"
@@ -31,7 +30,7 @@
             android:id="@+id/addnumedit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1" >
+            android:layout_weight="1">
 
             <requestFocus />
         </EditText>
@@ -41,9 +40,9 @@
         android:id="@+id/LinearLayout01"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/linearLayout3"
         android:layout_below="@+id/linearLayout3"
-        android:layout_marginTop="59dp" >
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_marginTop="59dp">
 
         <TextView
             android:id="@+id/TextView03"
@@ -63,9 +62,9 @@
         android:id="@+id/LinearLayout02"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/LinearLayout01"
         android:layout_below="@+id/linearLayout3"
-        android:layout_marginTop="12dp" >
+        android:layout_alignLeft="@+id/LinearLayout01"
+        android:layout_marginTop="12dp">
 
         <TextView
             android:id="@+id/TextView04"
@@ -87,7 +86,7 @@
         android:layout_alignLeft="@+id/LinearLayout01"
         android:layout_alignTop="@+id/LinearLayout01"
         android:layout_marginTop="52dp"
-        android:gravity="center|center_horizontal" >
+        android:gravity="center|center_horizontal">
 
         <TextView
             android:id="@+id/TextView05"
@@ -107,9 +106,9 @@
     <LinearLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/LinearLayout03"
         android:layout_below="@+id/LinearLayout03"
-        android:layout_marginTop="14dp" >
+        android:layout_alignLeft="@+id/LinearLayout03"
+        android:layout_marginTop="14dp">
 
         <Button
             android:id="@+id/addbutton"
@@ -128,10 +127,10 @@
         android:id="@+id/linearLayout3"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/linearLayout2"
         android:layout_below="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/linearLayout2"
         android:layout_marginTop="19dp"
-        android:gravity="center|center_horizontal" >
+        android:gravity="center|center_horizontal">
 
         <TextView
             android:id="@+id/TextView02"
@@ -144,7 +143,7 @@
             android:id="@+id/radioGroup1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/addradioman"
@@ -167,9 +166,9 @@
         android:id="@+id/linearLayout2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/linearLayout1"
         android:layout_below="@+id/linearLayout1"
-        android:layout_marginTop="19dp" >
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_marginTop="19dp">
 
         <TextView
             android:id="@+id/TextView01"

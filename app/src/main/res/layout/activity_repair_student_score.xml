@@ -2,12 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.stu.mgmt.RepairStudentScoreActivity"
-    android:background="@drawable/bg3">
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.stu.mgmt.RepairStudentScoreActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -15,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="61dp" >
+        android:layout_marginBottom="61dp">
 
         <Button
             android:id="@+id/repscorebutton"
@@ -36,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/linearLayout2"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="45dp" >
+        android:layout_marginBottom="45dp">
 
         <TextView
             android:id="@+id/textView7"
@@ -56,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/linearLayout6"
         android:layout_alignRight="@+id/linearLayout6"
-        android:layout_marginBottom="20dp" >
+        android:layout_marginBottom="20dp">
 
         <TextView
             android:id="@+id/textView6"
@@ -67,7 +66,7 @@
         <EditText
             android:id="@+id/repscorejavatext"
             android:layout_width="211dp"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <requestFocus />
         </EditText>
@@ -80,7 +79,7 @@
         android:layout_above="@+id/linearLayout5"
         android:layout_alignLeft="@+id/linearLayout5"
         android:layout_alignRight="@+id/linearLayout2"
-        android:layout_marginBottom="11dp" >
+        android:layout_marginBottom="11dp">
 
         <TextView
             android:id="@+id/textView2"
@@ -101,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/linearLayout3"
         android:layout_alignLeft="@+id/linearLayout3"
-        android:layout_marginBottom="21dp" >
+        android:layout_marginBottom="21dp">
 
         <TextView
             android:id="@+id/textView4"
@@ -121,7 +120,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/linearLayout4"
         android:layout_alignRight="@+id/linearLayout5"
-        android:layout_marginBottom="13dp" >
+        android:layout_marginBottom="13dp">
 
         <TextView
             android:id="@+id/TextView5"

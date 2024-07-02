@@ -2,21 +2,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.stu.mgmt.LoginActivity" >
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.stu.mgmt.LoginActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
         android:layout_alignLeft="@+id/linearLayout1"
         android:layout_alignRight="@+id/linearLayout1"
-        android:layout_below="@+id/linearLayout1"
-        android:layout_marginTop="20dp" >
+        android:layout_marginTop="20dp">
 
         <EditText
             android:id="@+id/logeditpass"
@@ -26,7 +25,7 @@
             android:drawableLeft="@drawable/pass"
             android:ems="10"
             android:hint="请输入密码"
-            android:inputType="textPassword" >
+            android:inputType="textPassword">
 
             <requestFocus />
         </EditText>
@@ -36,8 +35,8 @@
         android:id="@+id/logbutredister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:background="@android:color/transparent"
         android:text="新登录注册"
         android:textColor="#4682b4" />
@@ -48,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="39dp" >
+        android:layout_marginTop="39dp">
 
         <EditText
             android:id="@+id/loginditname"
@@ -65,16 +64,15 @@
         android:layout_height="100dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:src="@drawable/ic_launcher" />
+        android:layout_marginTop="30dp" />
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/linearLayout2"
         android:layout_below="@+id/linearLayout2"
-        android:layout_marginLeft="12dp" >
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_marginLeft="12dp">
 
         <CheckBox
             android:id="@+id/checkBox1"
@@ -89,8 +87,8 @@
         android:id="@+id/Logbutloging"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/logbutredister"
         android:layout_below="@+id/linearLayout3"
+        android:layout_alignRight="@+id/logbutredister"
         android:background="#5F9EA0"
         android:text="\t\t\t登\t\t录\t\t\t"
         android:textColor="#ffffff" />
