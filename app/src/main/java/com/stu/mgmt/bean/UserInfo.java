@@ -1,4 +1,4 @@
-package com.bysj.yrj.bean;
+package com.stu.mgmt.bean;
 /**
  * 
  * 与用户信息表对应的 实体类

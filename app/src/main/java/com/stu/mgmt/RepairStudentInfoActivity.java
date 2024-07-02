@@ -1,4 +1,4 @@
-package com.bysj.yrj;
+package com.stu.mgmt;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -14,9 +14,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bysj.yrj.bean.StudentInfo;
-import com.bysj.yrj.dao.AddStudentInfoDao;
-import com.bysj.yrj.dao.ComData;
+import com.stu.mgmt.bean.StudentInfo;
+import com.stu.mgmt.dao.AddStudentInfoDao;
+import com.stu.mgmt.dao.ComData;
 
 public class RepairStudentInfoActivity extends Activity {
 	//成员变量

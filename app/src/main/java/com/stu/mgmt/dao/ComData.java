@@ -1,8 +1,8 @@
-package com.bysj.yrj.dao;
+package com.stu.mgmt.dao;
 
-import com.bysj.yrj.bean.StudentInfo;
-import com.bysj.yrj.bean.StudentScore;
-import com.bysj.yrj.bean.UserInfo;
+import com.stu.mgmt.bean.StudentInfo;
+import com.stu.mgmt.bean.StudentScore;
+import com.stu.mgmt.bean.UserInfo;
 
 /**
  * 存储 程序 运行需要的暂时保存的 数据

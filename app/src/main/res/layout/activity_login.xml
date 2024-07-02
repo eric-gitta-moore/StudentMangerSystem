@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.bysj.yrj.LoginActivity" >
+    tools:context="com.stu.mgmt.LoginActivity" >
 
     <LinearLayout
         android:id="@+id/linearLayout2"

@@ -1,4 +1,4 @@
-package com.bysj.yrj;
+package com.stu.mgmt;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -10,8 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.bysj.yrj.dao.ComData;
-import com.bysj.yrj.dao.UserDao;
+import com.stu.mgmt.dao.ComData;
+import com.stu.mgmt.dao.UserDao;
 
 public class PassRepairActivity extends Activity {
     //成员变量

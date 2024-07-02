@@ -1,4 +1,4 @@
-package com.bysj.yrj;
+package com.stu.mgmt;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bysj.yrj.bean.StudentScore;
-import com.bysj.yrj.dao.AddStudentScoreDao;
-import com.bysj.yrj.dao.ComData;
+import com.stu.mgmt.bean.StudentScore;
+import com.stu.mgmt.dao.AddStudentScoreDao;
+import com.stu.mgmt.dao.ComData;
 
 public class RepairStudentScoreActivity extends Activity {
 	TextView repairnum,repairname;

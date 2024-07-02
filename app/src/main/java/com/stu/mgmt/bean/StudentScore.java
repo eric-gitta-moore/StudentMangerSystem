@@ -1,4 +1,4 @@
-package com.bysj.yrj.bean;
+package com.stu.mgmt.bean;
 
 public class StudentScore {
     private int id;

@@ -1,4 +1,4 @@
-package com.bysj.yrj;
+package com.stu.mgmt;
 
 import org.junit.Test;
 

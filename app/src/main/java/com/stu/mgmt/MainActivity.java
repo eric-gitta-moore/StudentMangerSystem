@@ -1,4 +1,4 @@
-package com.bysj.yrj;
+package com.stu.mgmt;
 
 import android.app.Activity;
 import android.app.AlertDialog;

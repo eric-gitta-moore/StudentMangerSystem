@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bysj.yrj"
+    package="com.stu.mgmt"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -21,7 +21,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoginActivity"
+            android:name="com.stu.mgmt.LoginActivity"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
@@ -31,37 +31,37 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.stu.mgmt.RegisterActivity"
             android:label="@string/title_activity_register"></activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.stu.mgmt.MainActivity"
             android:label="@string/title_activity_Main"></activity>
         <activity
-            android:name=".AddStudentInfoActivity"
+            android:name="com.stu.mgmt.AddStudentInfoActivity"
             android:label="@string/title_activity_add_info"></activity>
         <activity
-            android:name=".PassRepairActivity"
+            android:name="com.stu.mgmt.PassRepairActivity"
             android:label="@string/title_activity_pass_repair"></activity>
         <activity
-            android:name=".ShowStudentInfoActivity"
+            android:name="com.stu.mgmt.ShowStudentInfoActivity"
             android:label="@string/title_activity_show_student_info"></activity>
         <activity
-            android:name=".WeihuStudentInfoActivity"
+            android:name="com.stu.mgmt.WeihuStudentInfoActivity"
             android:label="@string/title_activity_weihu_student_info"></activity>
         <activity
-            android:name=".RepairStudentInfoActivity"
+            android:name="com.stu.mgmt.RepairStudentInfoActivity"
             android:label="@string/title_activity_repair_student_info"></activity>
         <activity
-            android:name=".AddStudentScoreActivity"
+            android:name="com.stu.mgmt.AddStudentScoreActivity"
             android:label="@string/title_activity_add_student_score"></activity>
         <activity
-            android:name=".ShowStudentScoreActivity"
+            android:name="com.stu.mgmt.ShowStudentScoreActivity"
             android:label="@string/title_activity_show_student_score"></activity>
         <activity
-            android:name=".WeihuStudentScoreActivity"
+            android:name="com.stu.mgmt.WeihuStudentScoreActivity"
             android:label="@string/title_activity_weihu_student_score"></activity>
         <activity
-            android:name=".RepairStudentScoreActivity"
+            android:name="com.stu.mgmt.RepairStudentScoreActivity"
             android:label="@string/title_activity_repair_student_score"></activity>
     </application>
 

@@ -1,4 +1,4 @@
-package com.bysj.yrj;
+package com.stu.mgmt;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,9 +15,9 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.bysj.yrj.bean.UserInfo;
-import com.bysj.yrj.dao.ComData;
-import com.bysj.yrj.dao.UserDao;
+import com.stu.mgmt.bean.UserInfo;
+import com.stu.mgmt.dao.ComData;
+import com.stu.mgmt.dao.UserDao;
 
 
 public class LoginActivity extends Activity {

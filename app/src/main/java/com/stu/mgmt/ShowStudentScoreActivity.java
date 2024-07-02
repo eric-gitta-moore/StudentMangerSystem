@@ -1,4 +1,4 @@
-package com.bysj.yrj;
+package com.stu.mgmt;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,8 +11,8 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.bysj.yrj.bean.StudentScore;
-import com.bysj.yrj.dao.AddStudentScoreDao;
+import com.stu.mgmt.bean.StudentScore;
+import com.stu.mgmt.dao.AddStudentScoreDao;
 
 import java.util.ArrayList;
 

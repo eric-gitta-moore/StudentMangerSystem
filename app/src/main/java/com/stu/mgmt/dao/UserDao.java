@@ -1,4 +1,4 @@
-package com.bysj.yrj.dao;
+package com.stu.mgmt.dao;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.bysj.yrj.bean.UserInfo;
+import com.stu.mgmt.bean.UserInfo;
 
 /**
  * 
